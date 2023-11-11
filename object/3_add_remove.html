@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add & Remove Element</title>
+</head>
+<body>
+    
+    <script>
+        const person1 = {};
+        person1.firstName = 'Risan';
+        person1.lastName = 'Ahmed';
+        person1.email = 'borhansiddque19@gmail.com';
+        console.log(person1);
+
+
+        const person2 = {
+            firstName: 'Rakibul',
+            lastName: 'Hasan',
+            email: 'rhrakib@gmail.com'
+        };
+        person2.id = '1234';
+        person2.age = '20';
+        person2.phone = '01899999999';
+        console.log(person2);
+
+        delete person2.age;
+        console.log(person2);
+
+        const key = 'email';
+        console.log(person2[key]);
+
+    </script>
+</body>
+</html>
