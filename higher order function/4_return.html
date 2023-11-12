@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return Function</title>
+</head>
+<body>
+    
+    <script>
+        function returnIsEven() {
+            const isEven = (n) => n % 2 == 0;
+            return isEven;
+        };
+
+        // const isEven = returnIsEven();
+        // console.log(isEven(50));
+        // console.log(isEven(55));
+
+        console.log(returnIsEven()(99));
+    </script>
+</body>
+</html>
