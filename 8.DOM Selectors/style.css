@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    padding: 20px 0px;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#title {
+    text-align: center;
+}
+
+.para {
+    margin-top: 20px;
+}
